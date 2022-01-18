@@ -26,17 +26,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-  <pluginManagement>
-    <plugins>
-      <plugin>
-        <groupId>org.codehaus.sonar</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>2.5</version>
-      </plugin>
-    </plugins>
-  </pluginManagement>
- </build>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -81,6 +70,12 @@
           <version>3.0.0</version>
         </plugin>
       </plugins>
+      </plugin>
+        <groupId>org.codehaus.sonar</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>2.5</version>
+      </plugin>
+    </plugins>
     </pluginManagement>
   </build>
 </project>
