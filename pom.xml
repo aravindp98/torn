@@ -77,9 +77,10 @@
         </plugin>
         <!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-testing-harness -->
         <plugin>
-        <groupId>org.sonarsource.sonarqube</groupId>
-       <artifactId>sonar-testing-harness</artifactId>
-       <version>5.6</version>
+          <groupId>org.sonarsource.sonarqube</groupId>
+          <artifactId>sonar-testing-harness</artifactId>
+          <version>5.6</version>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
