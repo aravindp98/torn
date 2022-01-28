@@ -25,6 +25,19 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+        <groupId>org.sonarsource.python</groupId>
+        <artifactId>python-checks-testkit</artifactId>
+        <version>${project.version}</version>
+        <scope>test</scope>
+    </dependency>
+        <!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-testing-harness -->
+    <dependency>
+       <groupId>org.sonarsource.sonarqube</groupId>
+       <artifactId>sonar-testing-harness</artifactId>
+       <version>5.6</version>
+       <scope>test</scope>
+   </dependency>
   </dependencies>
 
   <build>
