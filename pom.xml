@@ -31,6 +31,13 @@
      <artifactId>spring-boot-maven-plugin</artifactId>
      <version>2.6.3</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
+    <dependency>
+      <groupId>net.sourceforge.cobertura</groupId>
+      <artifactId>cobertura</artifactId>
+      <version>2.1.1</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -74,6 +81,11 @@
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
+        </plugin>
+        <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.8-SNAPSHOT</version>
         </plugin>
         <!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-testing-harness -->
         <plugin>
