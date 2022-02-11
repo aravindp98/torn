@@ -1,0 +1,2 @@
+Check your security configuration settings in Manage Jenkins->Configure global 
+security and verify that for Anonymous user you have allowed to connect to slave
